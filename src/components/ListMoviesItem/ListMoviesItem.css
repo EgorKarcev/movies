@@ -1,0 +1,92 @@
+.movies__img {
+  width: 150px;
+  height: 350px;
+}
+.movies__title {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.movies__item {
+  display: flex;
+}
+.movies__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: auto;
+}
+.movies__cont {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: auto;
+}
+
+.movies__data {
+  margin-left: 10px;
+}
+.genre {
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+.genre__movies {
+  background-color: rgb(190, 190, 190);
+  border: 1px solid black;
+  font-size: 12px;
+  border-radius: 3px;
+  padding: 1px 2px;
+  color: black;
+}
+.movies__overview {
+  margin-top: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.movies__react {
+  margin-top: auto;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.title {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  justify-content: space-between;
+}
+.title__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.movies__average {
+  color: black;
+  font-size: 16px;
+  border: 3px solid #e90000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+.movies__average_orang {
+  border: 3px solid #e97e00;
+}
+.movies__average_yellow {
+  border: 3px solid #e9d100;
+}
+.movies__average_green {
+  border: 3px solid #66e900;
+}
+@media screen and (min-width: 421px) {
+  .movies__img {
+    width: 200px;
+    height: 400px;
+  }
+}
